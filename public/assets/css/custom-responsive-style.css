@@ -1,0 +1,98 @@
+@media(min-width:1500px) {
+	.welcomesec {
+		height: 900px;
+	}
+}
+
+@media(max-width:1024px) {}
+
+@media(max-width:991px) {
+	.welcomesec h1 {
+		font-size: 8rem;
+	}
+}
+
+@media(max-width:767px) {
+	.widget-title {
+		font-size: 5rem;
+	}
+	.welcomesec {
+		height: 590px;
+		padding: 3rem 0;
+	}
+	html {
+		font-size: 9px
+	}
+	.landing-howitworks .workprocess {
+		display: block;
+	}
+	.landing-howitworks .workprocess li .singlebox::before {
+		top: auto;
+		transform: rotate(90deg);
+		right: 50%;
+		margin-right: -33px;
+		bottom: -5px;
+	}
+	.landing-howitworks .workprocess li .singlebox {
+		padding-bottom: 10rem;
+	}
+	.footer-payment {
+		float: none;
+		margin-top: 1rem;
+	}
+	.landing-howitworks .nav-tabs .nav-link {
+		font-size: 3rem;
+		min-width: auto;
+	}
+}
+
+@media(max-width:600px) {
+	.site-logo {
+		max-width: 160px;
+	}
+	html {
+		font-size: 6px
+	}
+	.topnav li {
+		padding-top: 4rem;
+	}
+	.topnav li a {
+		padding-left: 2rem;
+	}
+	html {
+		font-size: 8px
+	}
+	.welcomesec h1 {
+		font-size: 5rem;
+	}
+	.landing-howitworks .nav-tabs .nav-link {
+		font-size: 2rem;
+	}
+}
+
+@media(max-width:420px) {
+	.widget-title {
+		font-size: 4.5rem;
+	}
+	.site-logo {
+		max-width: 110px;
+	}
+	.topnav li {
+		padding-top: 1.2rem;
+	}
+	.topnav li a {
+		padding-left: 1.5rem;
+	}
+}
+
+@media(max-width:360px) {
+	.btn {
+		font-size: 1.5rem;
+	}
+	.topnav li a {
+		font-size: 1.5rem;
+	}
+	.welcomesec h1 {
+	font-size: 4rem;
+}
+}

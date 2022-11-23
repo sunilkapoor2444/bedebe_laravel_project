@@ -1,0 +1,83 @@
+/* your styles go here */
+a {
+    color: #00156d;
+    text-decoration: none;
+}
+.form-inner.login-form {
+    box-shadow: 1px 1px 7px 3px #cecece;
+    margin-bottom: 29px;
+    padding: 50px 60px 60px;
+        max-width: 450px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.login-page, .register-page{
+        background-color: #f2f2f2;
+}
+
+.login-page .text-primary {
+    color: #00156d !important;
+}
+.login-page form label.label-custom, .register-page form label.label-custom {
+    top: -4px;
+    font-size: 16px !important;
+    color: #000;
+        font-weight: 500;
+}
+.login-page form .form-group, .register-page form .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.login-page .form-group input {
+    border: 1px solid #ccc !important;
+    border-radius: 5px;
+    text-align: left;
+}
+.login-page form label.label-custom span, .register-page form label.label-custom span {
+    color: red;
+    padding-left: 5px;
+}
+.login-page form label.label-custom.active, .register-page form label.label-custom.active {
+    top: -4px;
+    color: #3b4789;
+}
+.submit-field {
+    padding: 10px !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    background: #00156d;
+}
+.submit-field:hover {
+     background: #00156dd1;
+    box-shadow: none;
+}
+.btn-primary:not([disabled]):not(.disabled).active, .btn-primary:not([disabled]):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: red;
+    border-color: none;
+    box-shadow: none;
+}
+.login-page .copyrights, .register-page .copyrights{
+    bottom: 50px;
+}
+.login-page form label.error, .register-page form label.error {
+    font-size: 12px;
+}
+.login-page form, .register-page form {
+    margin: 40px auto 10px;
+    max-width: 100%;
+    text-align: left;
+}
+.logo-area img {
+    max-width: 160px;
+}
+.logo-area {
+    margin-bottom: 30px;
+}
+.login-form h2.text-left {
+    color: #ff9101;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
